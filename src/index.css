@@ -1,0 +1,39 @@
+/* Import the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Apply the Poppins font to the HTML, body, and other elements */
+html,
+body,
+#root,
+.app,
+.content {
+  height: "auto";
+  width: 100%;
+  font-family: 'Poppins', sans-serif; /* Set font-family to Poppins */
+}
+
+
+.app {
+  display: flex;
+  position: relative;
+  min-height: 100vh; /* Ensure the app takes at least the full viewport height */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
